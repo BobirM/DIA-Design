@@ -1,7 +1,7 @@
 // header toggle button
 let mobile = true;
 
-function toggleMenu(){
+function toggleMenu() {
     mobile = !mobile;
 }
 

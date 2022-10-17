@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-#text_center{
+#text_center {
     display: flex;
     justify-content: center;
 }

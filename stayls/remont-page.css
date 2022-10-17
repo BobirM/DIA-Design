@@ -63,6 +63,7 @@
         line-height: 26px;
     }
     .remont_left_box{
+        display: flex !important;
         width: 100%;
         display: block;
     }
@@ -72,6 +73,7 @@
         margin-right: 0px;
     }
     .remont_right{
+        display: flex !important;
         width: 100%;
         display: block;
         align-items: center;

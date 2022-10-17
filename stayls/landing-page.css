@@ -184,6 +184,7 @@
         background-color: white;
         position: absolute;
         transition: 0.5s;
+        border-top: 2px solid rgb(232, 228, 228);
     }
 
     #header_box_icons_contact {
@@ -197,7 +198,8 @@
         line-height: 26px;
         margin-bottom: 36px;
     }
-    #button_zapis{
+
+    #button_zapis {
         width: 228px;
         margin-top: 26px;
     }
@@ -213,7 +215,6 @@
     .header_block {
         background-color: white;
         /* box-shadow: ; */
-        border-bottom: 2px solid rgb(232, 228, 228);
     }
 
     #button_call {
@@ -232,7 +233,8 @@
     }
 
 }
-@media (min-width:400px) and (max-width: 768px){
+
+@media (min-width:400px) and (max-width: 768px) {
     #menu_icon {
         display: block;
     }
@@ -276,7 +278,8 @@
         line-height: 26px;
         margin-bottom: 36px;
     }
-    #button_zapis{
+
+    #button_zapis {
         width: 228px;
         margin-top: 26px;
     }
@@ -291,8 +294,7 @@
 
     .header_block {
         background-color: white;
-        /* box-shadow: ; */
-        border-bottom: 2px solid rgb(232, 228, 228);
+        
     }
 
     #button_call {
@@ -312,12 +314,12 @@
 
 }
 
-@media (min-width:400px) and (max-width: 768px){
+@media (min-width:400px) and (max-width: 768px) {
     #menu_icon {
         display: block;
     }
 
-    
+
     .header_block {
         padding: 16px 12px;
     }
@@ -352,7 +354,8 @@
         line-height: 26px;
         margin-bottom: 36px;
     }
-    #button_zapis{
+
+    #button_zapis {
         width: 228px;
         margin-top: 26px;
     }

@@ -1,4 +1,3 @@
-.comment-page-container {}
 
 #comment_block2 {
     margin-top: 50px;
@@ -17,8 +16,6 @@
     width: 100%;
     object-fit: cover
 }
-
-.comment_disign_img_box {}
 
 .project_maket_imgs_box {
     width: 260px;
@@ -47,7 +44,8 @@
 #d_flex_center {
     display: block;
 }
-#comment_block_bottom{
+
+#comment_block_bottom {
     display: flex;
 }
 
@@ -56,9 +54,11 @@
         margin-top: 50px;
         display: block;
     }
-    #comment_block_bottom{
+
+    #comment_block_bottom {
         display: block;
     }
+
     #designer_img2 {
         height: 100%;
         width: 100%;
@@ -101,6 +101,7 @@
         justify-content: center;
     }
 }
+
 @media (min-width:400px) and (max-width: 768.9px) {
     #comment_block2 {
         margin-top: 50px;
@@ -131,7 +132,7 @@
 
     #commentariy {
         width: 100%;
-        height:260px;
+        height: 260px;
     }
 
     .project_maket_imgs_box {
@@ -150,45 +151,55 @@
     }
 }
 
-@media (min-width:769px) and (max-width: 1023.9px){
+@media (min-width:769px) and (max-width: 1023.9px) {
     #comment_block2 {
         display: block;
     }
-    .comment_img_box{
+
+    .comment_img_box {
         width: 49%;
-        
+
     }
-    .comment_disign_img_box{
+
+    .comment_disign_img_box {
         width: 49%;
     }
-    .project_maket_imgs_box{
+
+    .project_maket_imgs_box {
         width: 100%;
     }
-    #commentariy{
+
+    #commentariy {
         width: 100%;
         height: 100%;
     }
-    .comment_text_box{
+
+    .comment_text_box {
         margin-top: 32px;
     }
+
     #d_flex_center {
         display: flex;
         justify-content: center;
         padding-top: 20px;
     }
 
-  }
-  @media (min-width:1024px) and (max-width: 1200px){
-    #comment_block2{
+}
+
+@media (min-width:1024px) and (max-width: 1200px) {
+    #comment_block2 {
         /* display: block; */
     }
-    #commentariy{
+
+    #commentariy {
         width: 100%;
     }
-    #comment_text_styl{
+
+    #comment_text_styl {
         line-height: 18px;
     }
-    #button_zapis{
+
+    #button_zapis {
         width: 250px;
     }
-  }
+}
