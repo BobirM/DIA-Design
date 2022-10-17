@@ -1,0 +1,132 @@
+.remont_top_block{
+    display: flex;
+    margin-top: 20px;
+}
+.remont_midd_block{
+    display: flex;
+    margin-top: 50px;
+}
+.remont_bottom_block{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.remont_bottom-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.remont_text_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.remont_left_box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.remont_right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#remont_image_box{
+    position: relative;
+    margin-right: 47px;
+}
+#remont_page_img_mask{
+    position: absolute;
+    top: 32px;
+    left: 13px;
+}
+.remont_button_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#remont_text_style{
+    width: 100%;
+}
+@media (max-width:400px){
+    .remont_top_block{
+        display: block;
+        margin-top: 20px;
+    }
+    .remont_midd_block{
+        display: block;
+    }
+    .remont_text_box{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .remont_left_box{
+        width: 100%;
+        display: block;
+    }
+
+    #remont_image_box{
+        position: relative;
+        margin-right: 0px;
+    }
+    .remont_right{
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+    .remont_bottom_block{
+        margin-top: 50px;
+        width: 100%;
+        display: block;
+        align-items: center;
+    }#remont_text_box{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    
+}
+
+@media (min-width:400px) and (max-width: 768px){
+    .remont_top_block{
+        display: block;
+        margin-top: 20px;
+    }
+    .remont_midd_block{
+        display: block;
+    }
+    .remont_text_box{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .remont_left_box{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .remont_right{
+        display: flex;
+
+    }
+
+    #remont_image_box{
+        position: relative;
+        margin-right: 0px;
+    }
+    .remont_right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .remont_bottom_block{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }#remont_text_box{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    
+}

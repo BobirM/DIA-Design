@@ -1,0 +1,388 @@
+.landing-page {
+    background-image: url('../images/background.png');
+    width: 100%;
+    height: 100vh;
+}
+
+#menu_icon {
+    display: none;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999999999999999999999999999999999;
+    transition: 0.5s ease-in-out;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 16px 0px;
+    position: relative;
+}
+
+.header-left {
+    display: flex;
+
+}
+
+#logo_icon {
+    margin-right: 13px;
+}
+
+#logo-text {
+    position: relative;
+    width: 200px;
+}
+
+#main_logo_text {
+    vertical-align: baseline;
+}
+
+#text_logo_disain {
+    position: absolute;
+    left: -1px;
+    top: 21px;
+}
+
+.displayNone {
+    display: none;
+    transition: 1s;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+#header_box_icons_contact {
+    display: flex;
+}
+
+#vector {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#vector2 {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#phoneNum {
+    margin-right: 50px;
+    margin-bottom: 0px;
+    color: #242424;
+}
+
+#button_call {
+    width: 196px;
+    height: 40px;
+    background: #FFBF00;
+    border: none;
+
+}
+
+#button_call:hover {
+    background: #e4ae09 !important;
+    transition: 0.6s;
+}
+
+.main-text-block {
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+}
+
+#main_text_style {
+    text-align: center;
+    font-family: 'Montserrat', ;
+    font-size: 40px;
+    line-height: 60px;
+    color: #242424;
+}
+
+#medium_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#medium_text {
+    text-align: center;
+    font-size: 15px;
+    color: #242424;
+}
+
+#low-text-box {
+    display: flex;
+    justify-content: center;
+}
+
+#low_text {
+    align-items: center;
+}
+
+#button_zapis {
+    display: flex;
+    justify-content: center;
+}
+
+.button-zapis-box {
+    display: flex;
+    justify-content: center;
+}
+
+#button_zapis {
+    width: 280px;
+    height: 45px;
+    background: #FFBF00;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border: none;
+
+}
+
+#button_zapis:hover {
+    background: #e4ae09 !important;
+    transition: 0.6s;
+}
+
+@media (max-width:400px) {
+    #menu_icon {
+        display: block;
+    }
+
+    .header_block {
+        padding: 16px 12px;
+    }
+
+    #logo-text {
+        position: relative;
+        width: 100%;
+        margin-right: 12px;
+    }
+
+    .header-right {
+        display: block;
+        height: 120vh;
+        width: 100%;
+        top: 72px;
+        left: 0px;
+        padding: 0px;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    #header_box_icons_contact {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    #main_text_style {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 36px;
+    }
+    #button_zapis{
+        width: 228px;
+        margin-top: 26px;
+    }
+
+    .displayNone {
+        width: 0px;
+        overflow: hidden;
+        /* padding: 2px 6px; */
+        transition: 0.5s;
+    }
+
+
+    .header_block {
+        background-color: white;
+        /* box-shadow: ; */
+        border-bottom: 2px solid rgb(232, 228, 228);
+    }
+
+    #button_call {
+        position: absolute;
+        top: 80px
+    }
+
+    #phoneNum {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #header_button_box {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media (min-width:400px) and (max-width: 768px){
+    #menu_icon {
+        display: block;
+    }
+
+    .main-text-block {
+        max-width: 100%;
+    }
+
+    .header_block {
+        padding: 16px 12px;
+        max-width: 100%;
+    }
+
+    #logo-text {
+        position: relative;
+        width: 100%;
+        margin-right: 12px;
+    }
+
+    .header-right {
+        display: block;
+        height: 120vh;
+        width: 100%;
+        top: 72px;
+        left: 0px;
+        padding: 0px;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    #header_box_icons_contact {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    #main_text_style {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 36px;
+    }
+    #button_zapis{
+        width: 228px;
+        margin-top: 26px;
+    }
+
+    .displayNone {
+        width: 0px;
+        overflow: hidden;
+        /* padding: 2px 6px; */
+        transition: 0.5s;
+    }
+
+
+    .header_block {
+        background-color: white;
+        /* box-shadow: ; */
+        border-bottom: 2px solid rgb(232, 228, 228);
+    }
+
+    #button_call {
+        position: absolute;
+        top: 80px
+    }
+
+    #phoneNum {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #header_button_box {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:400px) and (max-width: 768px){
+    #menu_icon {
+        display: block;
+    }
+
+    
+    .header_block {
+        padding: 16px 12px;
+    }
+
+    #logo-text {
+        position: relative;
+        width: 100%;
+        margin-right: 12px;
+    }
+
+    .header-right {
+        display: block;
+        height: 120vh;
+        width: 100%;
+        top: 72px;
+        left: 0px;
+        padding: 0px;
+        align-items: center;
+        background-color: white;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    #header_box_icons_contact {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    #main_text_style {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 36px;
+    }
+    #button_zapis{
+        width: 228px;
+        margin-top: 26px;
+    }
+
+    .displayNone {
+        width: 0px;
+        overflow: hidden;
+        /* padding: 2px 6px; */
+        transition: 0.5s;
+    }
+
+
+    .header_block {
+        background-color: white;
+        /* box-shadow: ; */
+        border-bottom: 2px solid rgb(232, 228, 228);
+    }
+
+    #button_call {
+        position: absolute;
+        top: 80px
+    }
+
+    #phoneNum {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    #header_button_box {
+        display: flex;
+        justify-content: center;
+    }
+}
